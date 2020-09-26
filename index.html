@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+  <script src="index.js"></script>
   <h1>Simple Todo List</h1>
   <h2>Please enter your task below</h2>
+
   <label for="enterTask">New Task:</label>
   <input type="text" id="enterTask" />
-  <button>Submit</button>
+  <button onclick="newTask()">Submit</button>
+
+  <ul id="unorderedTasks"></ul>
 </html>
