@@ -1,0 +1,51 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  color: darkgray;
+}
+
+.intro {
+  background-color: rebeccapurple;
+  padding: 10px 5px 5px 10px;
+}
+
+#title {
+  margin: 0;
+  padding: 10px;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+#enterTask {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(63, 61, 61);
+  border-radius: 2px;
+  border: none;
+  width: 25%;
+  font-size: 15px;
+  color: darkgrey;
+  /* Note: Remove highlight when focused by clicking */
+  outline: none;
+}
+
+#addTask {
+  margin: 0;
+  padding: 10px;
+  background-color: dimgray;
+  border-radius: 2px;
+  border: none;
+  color: darkgray;
+}

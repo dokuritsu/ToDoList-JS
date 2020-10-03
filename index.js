@@ -1,8 +1,8 @@
 function newTask() {
-  // Create a un ordered list
+  // Create a list item
   var li = document.createElement("li");
 
-  // Grab input
+  // Grab input value from user
   var inputVal = document.getElementById("enterTask").value;
 
   // Create task & add to unordered list
