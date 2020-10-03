@@ -18,12 +18,17 @@ ul li {
   background-color: rgb(85, 85, 85);
   font-size: 18px;
   color: darkgray;
+  transition: 0.2s;
   user-select: none;
   list-style: none;
 }
 
 ul li:nth-child(odd) {
   background-color: rgb(66, 65, 65);
+}
+
+ul li:hover {
+  background-color: rgb(128, 128, 128);
 }
 
 ::placeholder {
