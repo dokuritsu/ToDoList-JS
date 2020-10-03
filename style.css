@@ -1,7 +1,6 @@
-* {
-  text-align: center;
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   background-color: darkgrey;
@@ -12,13 +11,30 @@ ul {
   padding: 0;
 }
 
+ul li {
+  padding: 10px 5px 10px 15px;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(85, 85, 85);
+  font-size: 18px;
+  color: darkgray;
+  user-select: none;
+  list-style: none;
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(66, 65, 65);
+}
+
 ::placeholder {
   color: darkgray;
 }
 
 .intro {
   background-color: rebeccapurple;
-  padding: 10px 5px 5px 10px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 30px;
 }
 
 #title {
@@ -30,22 +46,33 @@ ul {
 
 #enterTask {
   margin: 0;
-  padding: 10px;
-  background-color: rgb(63, 61, 61);
+  padding: 15px;
+  background-color: rgb(66, 65, 65);
   border-radius: 2px;
   border: none;
-  width: 25%;
-  font-size: 15px;
+  width: 35%;
+  font-size: 16px;
   color: darkgrey;
   /* Note: Remove highlight when focused by clicking */
-  outline: none;
+  outline-color: darkgrey;
 }
 
 #addTask {
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   background-color: dimgray;
   border-radius: 2px;
   border: none;
+  width: 10%;
+  font-size: 16px;
+  text-align: center;
   color: darkgray;
+  outline: none;
+  /* Change the look of the cursor when hovering */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#addTask:hover {
+  background-color: rgb(126, 126, 126);
 }
